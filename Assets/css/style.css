@@ -256,3 +256,54 @@ section p {
 		flex-basis: 100%;
 	}
 }
+
+/* Contact Section */
+
+section.contact {
+	background: linear-gradient(to right, #4e54c8, #8f94fb);
+	opacity: 0;
+	animation: 1.5s fadein 1s forwards;
+}
+
+.contact-link i {
+    position: relative;
+    top: 10px;
+}
+
+.contact-link {
+	font-size: 25px;
+	display: inline;
+	margin: 0 2%;
+}
+
+#contact-div {
+	margin: 20% 0;
+	width: 90%;
+}
+
+.footer-link i {
+    position: relative;
+}
+
+.footer-link {
+	font-size: 15px;
+	display: inline;
+	margin: 0 2%;
+}
+
+nav.fixed-bottom {
+	background: linear-gradient(to right, #4e54c8, #8f94fb);
+	padding-top: 0;
+	opacity: 1;
+}
+
+#footer-div {
+	margin: 20% 0;
+	width: 90%;
+}
+
+ul.footer-ul {
+	width: 300px;
+	display: flex;
+	justify-content: space-between;
+}
