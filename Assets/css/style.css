@@ -281,6 +281,8 @@ section.contact {
 	width: 90%;
 }
 
+/* Footer Section */
+
 .footer-link i {
     position: relative;
 }
@@ -306,4 +308,17 @@ ul.footer-ul {
 	width: 300px;
 	display: flex;
 	justify-content: space-between;
+}
+
+@media (max-width: 1260px) {
+	.contact-link {
+		display: block;
+		margin-bottom: 10px;
+	}
+}
+
+@media (max-width: 580px) {
+	/*.footer-link-main {
+		margin: 0 auto;
+	}*/
 }
