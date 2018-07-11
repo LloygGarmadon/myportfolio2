@@ -229,6 +229,20 @@ section p {
 	flex-basis: 65%;
 }
 
+.websites .grid a.small-a {
+	height: 350px;
+    padding-right: 346px;
+    padding-bottom: 292px;
+    padding-top: 0;
+}
+
+.websites .grid a.large-a {
+	height: 350px;
+    padding-right: 676px;
+    padding-bottom: 288px;
+    padding-top: 0;
+}
+
 @media (max-width: 1100px) {
 	.websites .grid li.small,
 	.websites .grid li.large {
