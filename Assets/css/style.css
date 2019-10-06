@@ -38,7 +38,7 @@ a:hover {
 a.button {
 	outline: none;
 	cursor: pointer;
-	border: none; 
+	border: none;
 	display: block;
 	position: relative;
 	background-color: #30a0e2;
@@ -50,14 +50,14 @@ a.button {
 	padding: 25px 80px;
 	margin: 0 auto;
 	border-radius: 20px;
-	box-shadow: 0 6px efa424;
+	box-shadow: 10px 5px 5px #343a40;
 }
 
 a.button:hover {
 	text-decoration: none;
   	box-shadow: 0 4px efa424;
   	top: 2px;
-} 
+}
 
 a.button:active {
 	box-shadow: none;
@@ -100,7 +100,7 @@ hr.long-line {
 section h3.title {
 	text-transform: capitalize;
 	font: bold 32px "Open Sans", sans-serif;
-	margin-bottom: 30px; 
+	margin-bottom: 30px;
 	text-align: center;
 }
 
